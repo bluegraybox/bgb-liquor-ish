@@ -3,7 +3,14 @@
         <div class="row">
             <div class="sixteen columns">
                 <div class="li-brand li-left">
-                <a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></div>
+                <a href="{{ .Site.BaseUrl }}">
+                  <svg style="width: 225px; height: 60px;" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                      <rect width="58" height="58" fill="#eee"></rect>
+                      <rect x="2" y="2" width="54" height="54" fill="#99e"></rect>
+                      <text x="56" y="29" fill="#eee" text-anchor="end" style="font: 30px sans-serif">b</text>
+                      <text x="58" y="29" fill="#eee" style="font: 30px sans-serif">luegraybox</text>
+                  </svg>
+                </a></div>
                 <div class="li-menu li-right">
                     <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
                     <ul id="menu2" class="li-menu-items">

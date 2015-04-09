@@ -5,10 +5,8 @@
         <div class="row">
             <div class="sixteen columns">
                 <div class="li-main-article-list">
-                    {{ range first 10 .Data.Pages }}
-                        <div class="li-article">
-                            {{ .Render "summary"}}
-                        </div>
+                    {{ range first 1 (where .Data.Pages "Section" "post") }}
+                        {{ .Render "article"}}
                     {{ end }}
                 </div>
             </div>

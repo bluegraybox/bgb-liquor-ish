@@ -25,28 +25,28 @@
 /** Base ********************************************************************/
 body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
-    color: #484644;
+    color: #666;
 }
 
 a,
 a:active,
 a:hover,
 a:visited {
-    color: #202020;
+    color: #ccc;
     text-decoration: none;
     font-weight: bold;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #202020;
+    color: #999;
     font-weight: lighter;
 }
 
 /** Screen furniture ********************************************************/
 .li-page-header {
-    background-color: #202020;
-    color: #fff;
-    padding: 32px 0px;
+    background-color: #9999ee;
+    color: #eee;
+    padding: 16px 0px;
 }
 
 .li-page-header ul {
@@ -81,8 +81,8 @@ h1,h2,h3,h4,h5,h6 {
 .li-page-header .li-brand a:hover,
 .li-page-header .li-brand a:visited {
     color: #fff;
-    font-weight: bold;
-    font-size: 1.5em;
+    font-weight: lighter;
+    font-size: 2em;
     text-decoration: none;
 }
 
@@ -94,14 +94,15 @@ h1,h2,h3,h4,h5,h6 {
 
 /** Article *****************************************************************/
 .li-article {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
 }
 
 .li-article pre {
-    background-color: #fafafa;
+    background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 4px;
-    padding: 32px;
+    padding: 16px;
 }
 
 ul.li-article-list {
@@ -125,12 +126,12 @@ ul.li-article-list {
 }
 
 .li-article-footer {
-    border-top: 1px solid #ccc;
+    /* border-top: 1px solid #ccc; */
 }
 
 .li-pagination {
-    border-top: 1px solid #ccc;
-    margin-top: 32px;
+    /* border-top: 1px solid #ccc; */
+    margin-top: 16px;
     padding-top: 16px;
 }
 
@@ -144,7 +145,7 @@ ul.li-article-list {
 
 .li-page-footer {
     font-size: smaller;
-    padding: 48px 0px 32px 0px;
+    padding: 48px 0px 16px 0px;
 }
 
 .li-page-footer-legal {
@@ -156,7 +157,7 @@ ul.li-article-list {
 }
 
 .li-main-article-list {
-    margin-top: 128px;
+    margin-top: 16px;
 }
 
 /** Mobile Portrait (320px) **************************************************/

@@ -26,36 +26,11 @@
                                 {{ end }}
                             {{ end }}
                         </span>
-                        {{ if or $categories $tags }} - {{ end }}
-                        <time class="li-article-date">{{ .Date.Format "Monday, January 2, 2006" }}</time>
                     </header>
                     <section>
                         {{ .Content }}
                     </section>
                 </article>
-            </div>
-        </div>
-
-        <div class="row li-pagination">
-            <div class="eight columns">
-                <div class="li-pagination-previous">
-                    {{with .Prev}}
-                        Later article<br />
-                        <a href="{{.Permalink}}"> {{.Title}}</a>
-                    {{else}}
-                        &nbsp;
-                    {{end}}
-                </div>
-            </div>
-            <div class="eight columns">
-                <div class="li-pagination-next">
-                    {{with .Next}}
-                        Older article<br />
-                        <a href="{{.Permalink}}"> {{.Title}}</a>
-                    {{else}}
-                        &nbsp;
-                    {{end}}
-                </div>
             </div>
         </div>
     </div>
