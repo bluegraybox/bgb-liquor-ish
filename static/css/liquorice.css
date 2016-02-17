@@ -150,6 +150,7 @@ ul.li-article-list {
 
 .li-page-footer-legal {
     float: left;
+    width: 50%;
 }
 
 .li-page-footer-theme {
