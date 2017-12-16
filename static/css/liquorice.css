@@ -444,3 +444,21 @@ or wrap each row of columns in a <div class="row"> */
     width: 0;
     height: 0;
 }
+
+
+/* Override for printing */
+
+@media print {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 80px;
+    }
+    .li-page-header, .li-page-footer, .li-pagination {
+        display: none;
+    }
+    body {
+        font-size: 66%;
+        color: #000;
+    }
+}
