@@ -1,7 +1,7 @@
 /**
  * https://github.com/eliasson/liquorice/
  *
- * Copyright © 2014. Markus Eliasson <markus.eliasson.gmail.com> 
+ * Copyright © 2014. Markus Eliasson <markus.eliasson.gmail.com>
  *
  * Liquorice is released under the MIT license.
  *
@@ -10,7 +10,7 @@
  *   Skeleton V1.2
  *   Copyright 2011, Dave Gamache
  *   www.getskeleton.com
- *   Free to use under the MIT license. 
+ *   Free to use under the MIT license.
  */
 
 /** States ******************************************************************/
@@ -40,6 +40,17 @@ a:visited {
 h1,h2,h3,h4,h5,h6 {
     color: #999;
     font-weight: lighter;
+}
+
+pre {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+pre code {
+    display: inline-block;
 }
 
 /** Screen furniture ********************************************************/
@@ -91,7 +102,6 @@ h1,h2,h3,h4,h5,h6 {
     display: none;
 }
 
-
 /** Article *****************************************************************/
 .li-article {
     margin-bottom: 16px;
@@ -103,6 +113,10 @@ h1,h2,h3,h4,h5,h6 {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 16px;
+}
+.li-article img {
+    height: auto;
+    max-width: 100%;
 }
 
 ul.li-article-list {
@@ -217,7 +231,7 @@ ul.li-article-list {
 
 /*
  * Skelton grid (www.getskeleton.com)
- */ 
+ */
 
 /** Desktop (960px) **********************************************************/
 .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
