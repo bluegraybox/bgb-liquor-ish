@@ -32,14 +32,16 @@ a,
 a:active,
 a:hover,
 a:visited {
-    color: #ccc;
+    color: #99e;
     text-decoration: none;
-    font-weight: bold;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #999;
+    color: #99e;
     font-weight: lighter;
+}
+h2 {
+    border-bottom: 1px solid #99e;
 }
 
 pre {
