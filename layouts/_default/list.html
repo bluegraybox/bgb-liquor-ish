@@ -5,6 +5,11 @@
         <div class="row">
             <div class="sixteen columns">
                 <h1>{{.Title}}</h1>
+                {{ if .Content }}
+                <section>
+                    {{ .Content }}
+                </section>
+                {{ else }}
                 <ul class="li-article-list">
                     {{ range .Data.Pages }}
                         <li>
@@ -13,6 +18,7 @@
                         </li>
                     {{ end }}
                 </ul>
+                {{ end }}
             </div>
         </div>
     </div>
