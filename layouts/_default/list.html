@@ -4,14 +4,13 @@
     <div class="container">
         <div class="row">
             <div class="sixteen columns">
-                <h1>{{.Title}}</h1>
                 {{ if .Content }}
                 <section>
                     {{ .Content }}
                 </section>
                 {{ else }}
                 <ul class="li-article-list">
-                    {{ range .Data.Pages }}
+                    {{ range where .Pages "Section" "post" }}
                         <li>
                             <time class="li-article-date">{{ .Date.Format "January 2, 2006" }}</time>
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
