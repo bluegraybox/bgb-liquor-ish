@@ -10,7 +10,7 @@
                 </section>
                 {{ else }}
                 <ul class="li-article-list">
-                    {{ range where .Site.Pages "Section" "post" }}
+                    {{ range where .Site.RegularPages "Section" "post" }}
                         <li>
                             <time class="li-article-date">{{ .Date.Format "January 2, 2006" }}</time>
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
